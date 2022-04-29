@@ -11,6 +11,7 @@ public class CalculoParidade {
             System.out.println("O número é par.");
             } else {
                 System.out.println("O número é impar.");
+                leitor.close();
             }
         }
     }
