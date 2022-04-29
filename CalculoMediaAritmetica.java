@@ -17,5 +17,6 @@ public class CalculoMediaAritmetica {
         media = (n1 + n2 + n3 + n4) / 4;
 
         System.out.println("A média calculada entre " + n1 + " + " + n2 + " + " + n3 + " + " + n4 + " é: " + media);
+        leitor.close();
     }
 }

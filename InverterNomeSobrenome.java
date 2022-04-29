@@ -10,5 +10,6 @@ public class InverterNomeSobrenome {
         System.out.print("Digite seu sobrenome: ");
         sobrenome = leitor.next();
         System.out.println("A inversão entre os nomes é: " + sobrenome + " ; " + nome);
+        leitor.close();
     }
 }
