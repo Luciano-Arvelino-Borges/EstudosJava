@@ -9,6 +9,7 @@ public class Operacoes {
         float soma;
         float diferenca;
         float produto;
+        int quocienteInt;
         float quociente;
         float restodivisao;
 
@@ -24,6 +25,8 @@ public class Operacoes {
         System.out.println("A diferença entre " + n1 + " e " + n2 + " é " + diferenca + ".");
         produto = n1 * n2;
         System.out.println("O produto de " + n1 + " e " + n2 + " é " + produto + ".");
+        //quocienteInt = (int) (n1/n2);
+        //quocienteInt = Integer.parseInt(("O quociente de " + n1 + " e " + n2 + " é " + quocienteInt + "."));
         quociente = n1 / n2;
         System.out.println("O quociente de " + n1 + " e " + n2 + " é " + quociente + ".");
         restodivisao = n1 % n2;
