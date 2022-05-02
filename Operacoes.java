@@ -24,8 +24,11 @@ public class Operacoes {
         System.out.println("A diferença entre " + n1 + " e " + n2 + " é " + diferenca + ".");
         produto = n1 * n2;
         System.out.println("O produto de " + n1 + " e " + n2 + " é " + produto + ".");
+
+
+
+
         quociente = n1 / n2;
-        System.out.println("O quociente de " + n1 + " e " + n2 + " é " + quociente + ".");
         restodivisao = n1 % n2;
         System.out.println("O resto da divisão entre " + n1 + " e " + n2 + " é " + restodivisao + ".");
 
