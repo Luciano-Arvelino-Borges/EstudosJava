@@ -22,10 +22,15 @@ public class Boletim {
         nota3 = leitor.nextFloat();
         System.out.print("Digite a querta nota: ");
         nota4 = leitor.nextFloat();
-        media = (nota1 + nota2 + nota3 + nota4)/4;
+        media = (nota1 + nota2 + nota3 + nota4) / 4;
         System.out.println("----------Curso EAD----------");
         System.out.print("Nome: " + nome + "\nTelefone: " + tel + "\nSérie " + serie + ". ");
-        System.out.println("A média do aluno " + nome + " é " + media + ".");
+        if (media >= 7) {
+            System.out.println("A média do aluno " + nome + " é " + media + ". APROVADO.");
+        }else{
+            System.out.println("A média do aluno " + nome + " é " + media + ". REPROVADO.");
+            leitor.close();
 
+        }
     }
 }
