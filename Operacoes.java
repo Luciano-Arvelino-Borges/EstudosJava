@@ -13,6 +13,7 @@ public class Operacoes {
         float restodivisao;
 
 
+
         System.out.println("Cálculo de Operações Matemáticas");
         System.out.print("Digite o primero valor: ");
         n1 = leitor.nextFloat();
@@ -26,6 +27,9 @@ public class Operacoes {
         System.out.println("O produto de " + n1 + " e " + n2 + " é " + produto + ".");
         quociente = n1 / n2;
         System.out.println("O quociente de " + n1 + " e " + n2 + " é " + quociente + ".");
+
+
+
         restodivisao = n1 % n2;
         System.out.println("O resto da divisão entre " + n1 + " e " + n2 + " é " + restodivisao + ".");
 
