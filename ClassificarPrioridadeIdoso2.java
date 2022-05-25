@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class ClassificarPrioridadeIdoso2 {
+    public static void main(String[] args) {
+        Scanner leitor = new Scanner(System.in);
+        int idade;
+        System.out.println("Olá. Por gentileza, quantos anos o senhor tem? ");
+        idade = leitor.nextInt();
+        if (idade >= 60) {
+            if (idade >= 80) {
+                System.out.println("Fila 80+");
+            } else {
+                System.out.println("Fila Prioritária.");
+
+            }
+        }else{
+            System.out.println("Fila comum.");
+
+            }
+        }
+    }
+
+
+
