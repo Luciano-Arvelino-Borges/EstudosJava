@@ -21,7 +21,7 @@ public class CodigoCadastroPapelaria {
                 JOptionPane.showMessageDialog(null,"O produto é Giz de cera");
                 break;
             default:
-                JOptionPane.showMessageDialog(null, "Código incorreto");
+                JOptionPane.showMessageDialog(null, "Produto não cadastrado");
         }
 
     }
