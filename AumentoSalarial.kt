@@ -8,6 +8,4 @@ fun main() {
     println("$nome que ganhava R$ $salario de salário e depois do reajuste de $reaj % passará a ganhar ${salario+(salario*reaj/100)}.")
 
 
-    //sal + ( sal * reaj /100 )
-
 }
